@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "name": "FedexApiClass/FedexApiClass",
+=======
+    "name": "FedexApi/FedexApi",
+>>>>>>> 1faa3a4e8f997fbaf9cdaa7fa4b01de92367ee50
     "description": "",
     "keywords": ["FedexApi"],
     "homepage": "",
@@ -17,7 +21,11 @@
     },
     "autoload": {
         "psr-4": {
+<<<<<<< HEAD
             "FedexApiClass\\": ["/"]
+=======
+            "FedexApi\\": ["/"]
+>>>>>>> 1faa3a4e8f997fbaf9cdaa7fa4b01de92367ee50
         }
     }
 }
