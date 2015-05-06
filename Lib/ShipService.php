@@ -224,6 +224,7 @@ class ShipService extends \SoapClient
      */
     public function processShipment(ProcessShipmentRequest $ProcessShipmentRequest)
     {
+      $this->__setLocation('https://ws.fedex.com:443/web-services/ship');
       return $this->__soapCall('processShipment', array($ProcessShipmentRequest));
     }
 
